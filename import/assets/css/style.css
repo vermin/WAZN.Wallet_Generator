@@ -1,5 +1,5 @@
 @charset "UTF-8";
-html { 
+html {
   background-image: url("/assets/img/site-background.jpg");
   background-size:cover
 }
@@ -48,10 +48,10 @@ body {
 .wallet img,
 .instruction img { width:100%; }
 
-.instruction img { 
-  width:100%;   
+.instruction img {
+  width:100%;
  -webkit-border-radius: 18px;
- border-radius: 18px; 
+ border-radius: 18px;
 }
 
 .instruction {
@@ -240,7 +240,7 @@ button:hover { background-color:#C1F0FF; }
 
 .donation { margin-top:15px; }
 
-.etnclogodona {
+.waznlogodona {
   margin-bottom:4px;
   margin-left:3px;
 }
