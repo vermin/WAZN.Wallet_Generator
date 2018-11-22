@@ -11,5 +11,5 @@ This page generates a new WAZN wallet. It is self contained and does all necessa
 [TODO BEFORE LINK TO MY.WAZN.IO IS SHARED ON OFFICIAL WEBPAGE AND SOCIAL NETWORKS]
 
   ---new background as bright pattern
-
+  
   ---link files to server and deploy
