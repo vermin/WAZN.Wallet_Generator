@@ -44,9 +44,9 @@
  <body onload="js:genwallet(null)">
   <br>
   <div class="header">
-   <img src="assets/img/wazn.png" width="200px" height="200px" />
+   <p><img src="assets/img/wazn.png" width="128px" height="128px" /></p>
    <h1>WAZN Wallet Generator</h1>
-   <p>Adapted by <i class="fas fa-thumbs-up"></i> <a href="https://github.com/vermin" style="color: #fff" target="_blank">vermin for Project WAZN</a></p>
+   <p>Adapted by vermin for <a href="https://www.wazn.io" style="color: #43AA48" target="_blank">WAZN Project</a></p>
   </div>
   <div class="wallet" id="wallet">
    <img src="assets/img/waznpaper.jpg" class="imagebg" />
@@ -109,8 +109,6 @@
    <div style="padding:4px;"></div>
    <button type="button" class="btn btn-info" onclick="window.print()"><i class="fas fa-print"></i> Print</button>
    <div style="padding:4px;"></div>
-   <a class="btn btn-primary" href="E:/Projects/Crypto/vermin/WAZN.Wallet_generator/import" role="button"><i class="fas fa-sign-in-alt"></i> Import your address</a>
-   <div style="padding:4px;"></div>
     <form method="POST">
       <input type="text" name="address" hidden="true" value="" id="address_widget3">
       <input type="text" name="privspendkey" hidden="true" value="" id="spend_key_widget3">
@@ -122,10 +120,9 @@
    <button class="btn btn-dark" type="button" data-toggle="collapse" data-target="#collapseRestore" aria-expanded="false" aria-controls="collapseExample"><i class="fas fa-history"></i> Restore Keys</button>
    <div class="collapse" id="collapseRestore">
     <div class="card-body">
-     <input id="seed_phrase" type="text" style="width:30%;" class="form-control2 collapseRestore text-center" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Enter your seed phrase words here." /><br><br>
+     <input id="seed_phrase" type="text" style="width:64%;" class="form-control2 collapseRestore text-center" aria-label="Default" aria-describedby="inputGroup-sizing-default" placeholder="Enter your seed phrase words here." /><br><br>
      <div class="container">
-        <div class="card card-body col-xs-12 col-md-8">
-            <p>Beware the QR code is not available when you do a restoration. To have a QR code go on <a href="E:/Projects/Crypto/vermin/WAZN.Wallet_generator/import/" style="color: #797979">WAZN.Wallet_generator/import</a> and place your credentials to be able to use it!</p>
+        <div class="card card-body col-xs-12 col-md-8">Restoration with QR code is currently not available. Please enter your seed above and click 'Restore'.
         </div>
       </div>
      <div class="Restorebtn">
@@ -149,7 +146,7 @@
    <br />
    <footer>
     <div class="donation">
-     <kbd class="pull-center"><i class="fab fa-bitcoin fa-lg" style="color: #f7931a;margin-top: 4px; margin-left: 1px;"></i>&nbsp;<strong><span style="color: #fff">btc_donation_address</span></strong></kbd>
+     <kbd class="pull-center"><i class="fab fa-bitcoin fa-lg" style="color: #f7931a;margin-top: 4px; margin-left: 1px;"></i>&nbsp;<strong><span style="color: #fff">1G1NYxZBxaoXThpcpdEEvXyVcek4Yu1U7B</span></strong></kbd>
      <div style="padding-top: 10px;"></div>
      <kbd class="pull-center"><img src="assets/img/wazn.png" width="18px" height="18px" class="waznlogodona" />&nbsp;<strong><span style="color: #fff">wazn_donation_address</span></strong></kbd>
     </div>
