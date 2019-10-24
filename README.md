@@ -1,4 +1,4 @@
-# WAZN paper wallet
+# WAZN Wallet Generator
 
 Copyright (c) 2019 WAZN Project
 
