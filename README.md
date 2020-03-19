@@ -13,7 +13,7 @@ This is perfect way of creating WAZN wallet without risk of endangering private 
 
 Try it here: [my.wazn.io](https://my.wazn.io) or download repo to you computer and run it offline.
 
-![waznpaperwallet](https://my.wazn.io/assets/img/waznpaper.png)
+<img src="https://my.wazn.io/assets/img/waznpaper.png" width="800" >
 
 ## License
 ```
