@@ -38,17 +38,15 @@
   <link rel="mask-icon" href="assets/favi/safari-pinned-tab.svg" color="#5bbad5">
   <meta name="msapplication-TileColor" content="#da532c">
   <meta name="theme-color" content="#ffffff">
-</script>
  </head>
  <body onload="js:genwallet(null)">
   <br>
   <div class="header">
-   <p><img src="assets/img/wazn.png" width="128px" height="128px" /></p>
-   <h1>WAZN Wallet Generator</h1>
-   <p>Adapted by vermin for <a href="https://wazn.io" style="color: #43AA48" target="_blank">WAZN Project</a></p>
+   <p><img src="assets/img/logo_wazn6.png" width="180px" height="62px" /></p>
+   <h3>OFFLINE PAPER WALLET GENERATOR</h3>
   </div>
   <div class="wallet" id="wallet">
-   <img src="assets/img/waznpaper.jpg" class="imagebg" />
+   <img src="assets/img/waznpaper.png" class="imagebg" />
    <div class="amount-added-text"></div>
    <div class="note-text" id="mnemonic_widget2"></div>
    <!-- Seed Phrase -->
@@ -68,7 +66,7 @@
   </div>
   <div class="container">
    <div class="wallettxt">
-    <h3>Public address</h3>
+    <h4 style="color: #339933">Public address</h4>
     <p>Write down your public address, or copy paste it somewhere. Anyone with this address can send you money.</p>
     <div class="input-group">
      <input type="text" id="address_widget" class="form-control" placeholder="Public Address" aria-describedby="basic-addon2" readonly="" value="" />
@@ -76,23 +74,24 @@
       <button class="btn btn-light" type="button" data-clipboard-target="#address_widget"><i class="far fa-copy" style="color: #797979"></i></button>
      </div>
     </div>
-    <h3>Private Spend Key</h3>
-    <p>Print or write down these keys and keep them safe. Without them you cannot access your money. There are no second chances.</p>
+    <h4 style="color: #339933">Private Spend Key</h4>
+    <p>Print or write down Private Spend Key and keep it safe. Without it you cannot access your wallet to view and send WAZN. There are no second chances.</p>
     <div class="input-group">
      <input type="text" id="spend_key_widget" class="form-control" placeholder="Private Spend Key" aria-describedby="basic-addon2" readonly="" value="" />
      <div class="input-group-append">
       <button class="btn btn-light" type="button" data-clipboard-target="#spend_key_widget"><i class="far fa-copy" style="color: #797979"></i></button>
      </div>
     </div>
-    <h3>Private View Key</h3>
+    <h4 style="color: #339933">Private View Key</h4>
+    <p>Print or write down Private View Key and keep it safe. Without it you cannot access your wallet to view and send WAZN. There are no second chances.</p>
     <div class="input-group">
      <input type="text" id="view_key_widget" class="form-control" placeholder="Private View Key" aria-describedby="basic-addon2" readonly="" value="" />
      <div class="input-group-append">
       <button class="btn btn-light" type="button" data-clipboard-target="#view_key_widget"><i class="far fa-copy" style="color: #797979"></i></button>
      </div>
     </div>
-    <h3>Seed Phrase</h3>
-    <p>Copy your seed phrase and keys. If you lose your wallet, these can be used to restore your money. That also means you need to keep them safe and private.</p>
+    <h4 style="color: #339933">Seed Phrase</h4>
+    <p>Copy your Seed Phrase and Private Keys. If you lose access to your wallet, these keys can be used to restore your WAZN wallet at any time. Keep this information safe and private.</p>
     <div class="input-group">
      <input type="text" id="mnemonic_widget" class="form-control" placeholder="Seed Phrase" aria-describedby="basic-addon2" readonly="" value="" />
      <div class="input-group-append">
@@ -138,19 +137,14 @@
       <p>Note: To import this wallet to the CLI client, you must first open your CLI client with this command:  <code>--generate-from-keys walletname.wazn</code> <br> Windows: <code>wazn-wallet-cli.exe --generate-from-keys walletname.wazn</code> <br> Linux: <code>./wazn-wallet-cli --generate-from-keys walletname.wazn</code></p>
     </div>
   </div>
-   <h2 class="howfold">How to fold your paper wallet</h2>
+  <h4 style="color: #339933" class="howfold">How to fold your paper wallet</h4>
    <div class="instruction">
-    <img src="assets/img/instructions.jpg" />
+    <img src="assets/img/instructions.png" />
    </div>
    <br />
    <footer>
-    <div class="donation">
-     <kbd class="pull-center"><i class="fab fa-bitcoin fa-lg" style="color: #f7931a;margin-top: 4px; margin-left: 1px;"></i>&nbsp;<strong><span style="color: #fff">1G1NYxZBxaoXThpcpdEEvXyVcek4Yu1U7B</span></strong></kbd>
-     <div style="padding-top: 10px;"></div>
-     <kbd class="pull-center"><img src="assets/img/wazn.png" width="18px" height="18px" class="waznlogodona" />&nbsp;<strong><span style="color: #fff">WaznsxmBgsEB8D9URhFnZYQnaFAuo9QF16kSGnhDBcbyWtxcDoU6UxLY3wGTsHUEEj8C9ZKHqqmDh5WWpgwjHJHn6krEKtFNqw</span></strong></kbd>
-    </div>
     <br>
-    <p style="color: #fff" ><a href="https://github.com/Project-WAZN/WAZN.Wallet_generator" target="_blank" style="color: #fff">Source code: <i class="fab fa-github fa-lg"></i></a></p>
+    <p style="color: #fff" >Copyright © 2019-2020 <a href="https://wazn.io" target="_blank">WAZN Project</a> | Source code: <a href="https://github.com/project-wazn/wazn-wallet-generator" target="_blank"><i class="fab fa-github fa-lg"></i> wazn-wallet-generator</a></p>
    </footer>
    <script src="assets/js/clipboard.min.js"></script>
    <script src="assets/js/wallet.js"></script>
@@ -162,5 +156,6 @@
    <script>
 new ClipboardJS('.btn');
     </script>
+  </div>
  </body>
 </html>
