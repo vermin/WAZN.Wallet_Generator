@@ -18,6 +18,6 @@ Try it here: [my.wazn.io](https://my.wazn.io) or download repo to you computer a
 ## License
 ```
 Licensed under the EUPL-1.2
-Copyright (c) 2019 WAZN Project
+Copyright (c) 2019-2021 WAZN Project
 Copyright (c) 2018 Havenstd06
 ```

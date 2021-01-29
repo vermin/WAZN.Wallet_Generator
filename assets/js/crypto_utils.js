@@ -3250,7 +3250,7 @@ var config = {
     coinSymbol: 'WAZN',
     coinName: 'Wazn',
     coinUriPrefix: 'wazn:',
-    addressPrefix: 1274160
+    addressPrefix: 3124016
 };
 
 var cnUtil = (function(initConfig) {
